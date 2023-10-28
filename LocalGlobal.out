@@ -1,0 +1,1533 @@
+Loading "ArithmeticFunctions.m"
+Loading "GeneralRepresentationTheory.m"
+Loading "HasseSubgroups.m"
+Loading "GroupExtensions.m"
+Loading "GroupExtensions2.m"
+Loading "ExceptionalWreathS2.m"
+=== SL_2(3) wr S_2 ===
+
+
+Character Table of Group G0
+---------------------------
+
+
+-------------------------------------
+Class |   1  2    3    4  5    6    7
+Size  |   1  1    4    4  6    4    4
+Order |   1  2    3    3  4    6    6
+-------------------------------------
+p  =  2   1  1    4    3  2    3    4
+p  =  3   1  2    1    1  5    2    2
+-------------------------------------
+X.1   +   1  1    1    1  1    1    1
+X.2   0   1  1    J -1-J  1 -1-J    J
+X.3   0   1  1 -1-J    J  1    J -1-J
+X.4   -   2 -2   -1   -1  0    1    1
+X.5   0   2 -2  1+J   -J  0    J -1-J
+X.6   0   2 -2   -J  1+J  0 -1-J    J
+X.7   +   3  3    0    0 -1    0    0
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+J = RootOfUnity(3)
+
+
+Time: 0.540
+                    Get restriction ML of MHQ to L
+                    Get restriction ML of MHQ to L
+                    Get restriction ML of MHQ to L
+                    Get restriction ML of MHQ to L
+                    Get restriction ML of MHQ to L
+                    Get restriction ML of MHQ to L
+The answer depends on p modulo 24
+p equiv 1 mod 24
+[ C2^2.A4wrC2 ]
+Orders [ 1152 ]
+Exponents [ 24 ]
+p equiv 5 mod 24
+[ C4.C2^3 ]
+Orders [ 32 ]
+Exponents [ 4 ]
+p equiv 13 mod 24
+[ D4.A4 ]
+Orders [ 96 ]
+Exponents [ 12 ]
+p equiv 17 mod 24
+[ Q8wrC2 ]
+Orders [ 128 ]
+Exponents [ 8 ]
+Testing group number 1 out of 20
+Testing group number 2 out of 20
+Testing group number 3 out of 20
+Testing group number 4 out of 20
+Testing group number 5 out of 20
+Testing group number 6 out of 20
+Testing group number 7 out of 20
+Testing group number 8 out of 20
+Testing group number 9 out of 20
+Testing group number 10 out of 20
+Testing group number 11 out of 20
+Testing group number 12 out of 20
+Testing group number 13 out of 20
+Testing group number 14 out of 20
+Testing group number 15 out of 20
+Testing group number 16 out of 20
+Testing group number 17 out of 20
+Testing group number 18 out of 20
+Testing group number 19 out of 20
+Testing group number 20 out of 20
+=== widehat{S_4} wr S_2 ===
+
+
+Character Table of Group G0
+---------------------------
+
+
+----------------------------------
+Class |   1  2  3  4  5  6   7   8
+Size  |   1  1  8  6 12  8   6   6
+Order |   1  2  3  4  4  6   8   8
+----------------------------------
+p  =  2   1  1  3  2  2  3   4   4
+p  =  3   1  2  1  4  5  2   8   7
+----------------------------------
+X.1   +   1  1  1  1  1  1   1   1
+X.2   +   1  1  1  1 -1  1  -1  -1
+X.3   +   2  2 -1  2  0 -1   0   0
+X.4   -   2 -2 -1  0  0  1  Z1 -Z1
+X.5   -   2 -2 -1  0  0  1 -Z1  Z1
+X.6   +   3  3  0 -1 -1  0   1   1
+X.7   +   3  3  0 -1  1  0  -1  -1
+X.8   -   4 -4  1  0  0 -1   0   0
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+# denotes algebraic conjugation, that is,
+#k indicates replacing the root of unity w by w^k
+
+Z1     = (CyclotomicField(8: Sparse := true)) ! [ RationalField() | 0, 1, 0, -1 
+]
+
+
+Time: 2.180
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+Time: 2.250
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+Time: 2.250
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+            Get restriction ML of MHQ to L
+The answer depends on p modulo 48
+p equiv 1 mod 48
+[ Q8^2.S3wrC2 ]
+Orders [ 4608 ]
+Exponents [ 48 ]
+p equiv 17 mod 48
+[ C4^2.C2^4.C2 ]
+Orders [ 512 ]
+Exponents [ 16 ]
+p equiv 25 mod 48
+[ (C3:C4)wrC2, Q8^2.C2^2, C4^2.C2^3.C2, Q8^2.S3^2 ]
+Orders [ 288, 256, 256, 2304 ]
+Exponents [ 24, 8, 8, 24 ]
+p equiv 41 mod 48
+[ Q8^2.C2^2, Q8^2.C2^2, C4^2.C2^3.C2 ]
+Orders [ 256, 256, 256 ]
+Exponents [ 8, 8, 8 ]
+Testing group number 1 out of 166
+Testing group number 2 out of 166
+Testing group number 3 out of 166
+Testing group number 4 out of 166
+Testing group number 5 out of 166
+Testing group number 6 out of 166
+Testing group number 7 out of 166
+Testing group number 8 out of 166
+Testing group number 9 out of 166
+Testing group number 10 out of 166
+Testing group number 11 out of 166
+Testing group number 12 out of 166
+Testing group number 13 out of 166
+Testing group number 14 out of 166
+Testing group number 15 out of 166
+Testing group number 16 out of 166
+Testing group number 17 out of 166
+Testing group number 18 out of 166
+Testing group number 19 out of 166
+Testing group number 20 out of 166
+Testing group number 21 out of 166
+Testing group number 22 out of 166
+Testing group number 23 out of 166
+Testing group number 24 out of 166
+Testing group number 25 out of 166
+Testing group number 26 out of 166
+Testing group number 27 out of 166
+Testing group number 28 out of 166
+Testing group number 29 out of 166
+Testing group number 30 out of 166
+Testing group number 31 out of 166
+Testing group number 32 out of 166
+Testing group number 33 out of 166
+Testing group number 34 out of 166
+Testing group number 35 out of 166
+Testing group number 36 out of 166
+Testing group number 37 out of 166
+Testing group number 38 out of 166
+Testing group number 39 out of 166
+Testing group number 40 out of 166
+Testing group number 41 out of 166
+Testing group number 42 out of 166
+Testing group number 43 out of 166
+Testing group number 44 out of 166
+Testing group number 45 out of 166
+Testing group number 46 out of 166
+Testing group number 47 out of 166
+Testing group number 48 out of 166
+Testing group number 49 out of 166
+Testing group number 50 out of 166
+Testing group number 51 out of 166
+Testing group number 52 out of 166
+Testing group number 53 out of 166
+Testing group number 54 out of 166
+Testing group number 55 out of 166
+Testing group number 56 out of 166
+Testing group number 57 out of 166
+Testing group number 58 out of 166
+Testing group number 59 out of 166
+Testing group number 60 out of 166
+Testing group number 61 out of 166
+Testing group number 62 out of 166
+Testing group number 63 out of 166
+Testing group number 64 out of 166
+Testing group number 65 out of 166
+Testing group number 66 out of 166
+Testing group number 67 out of 166
+Testing group number 68 out of 166
+Testing group number 69 out of 166
+Testing group number 70 out of 166
+Testing group number 71 out of 166
+Testing group number 72 out of 166
+Testing group number 73 out of 166
+Testing group number 74 out of 166
+Testing group number 75 out of 166
+Testing group number 76 out of 166
+Testing group number 77 out of 166
+Testing group number 78 out of 166
+Testing group number 79 out of 166
+Testing group number 80 out of 166
+Testing group number 81 out of 166
+Testing group number 82 out of 166
+Testing group number 83 out of 166
+Testing group number 84 out of 166
+Testing group number 85 out of 166
+Testing group number 86 out of 166
+Testing group number 87 out of 166
+Testing group number 88 out of 166
+Testing group number 89 out of 166
+Testing group number 90 out of 166
+Testing group number 91 out of 166
+Testing group number 92 out of 166
+Testing group number 93 out of 166
+Testing group number 94 out of 166
+Testing group number 95 out of 166
+Testing group number 96 out of 166
+Testing group number 97 out of 166
+Testing group number 98 out of 166
+Testing group number 99 out of 166
+Testing group number 100 out of 166
+Testing group number 101 out of 166
+Testing group number 102 out of 166
+Testing group number 103 out of 166
+Testing group number 104 out of 166
+Testing group number 105 out of 166
+Testing group number 106 out of 166
+Testing group number 107 out of 166
+Testing group number 108 out of 166
+Testing group number 109 out of 166
+Testing group number 110 out of 166
+Testing group number 111 out of 166
+Testing group number 112 out of 166
+Testing group number 113 out of 166
+Testing group number 114 out of 166
+Testing group number 115 out of 166
+Testing group number 116 out of 166
+Testing group number 117 out of 166
+Testing group number 118 out of 166
+Testing group number 119 out of 166
+Testing group number 120 out of 166
+Testing group number 121 out of 166
+Testing group number 122 out of 166
+Testing group number 123 out of 166
+Testing group number 124 out of 166
+Testing group number 125 out of 166
+Testing group number 126 out of 166
+Testing group number 127 out of 166
+Testing group number 128 out of 166
+Testing group number 129 out of 166
+Testing group number 130 out of 166
+Testing group number 131 out of 166
+Testing group number 132 out of 166
+Testing group number 133 out of 166
+Testing group number 134 out of 166
+Testing group number 135 out of 166
+Testing group number 136 out of 166
+Testing group number 137 out of 166
+Testing group number 138 out of 166
+Testing group number 139 out of 166
+Testing group number 140 out of 166
+Testing group number 141 out of 166
+Testing group number 142 out of 166
+Testing group number 143 out of 166
+Testing group number 144 out of 166
+Testing group number 145 out of 166
+Testing group number 146 out of 166
+Testing group number 147 out of 166
+Testing group number 148 out of 166
+Testing group number 149 out of 166
+Testing group number 150 out of 166
+Testing group number 151 out of 166
+Testing group number 152 out of 166
+Testing group number 153 out of 166
+Testing group number 154 out of 166
+Testing group number 155 out of 166
+Testing group number 156 out of 166
+Testing group number 157 out of 166
+Testing group number 158 out of 166
+Testing group number 159 out of 166
+Testing group number 160 out of 166
+Testing group number 161 out of 166
+Testing group number 162 out of 166
+Testing group number 163 out of 166
+Testing group number 164 out of 166
+Testing group number 165 out of 166
+Testing group number 166 out of 166
+=== SL_2(F_5) wr S_2 ===
+
+
+Character Table of Group G0
+---------------------------
+
+
+-------------------------------------------
+Class |   1  2  3  4    5    6  7    8    9
+Size  |   1  1 20 30   12   12 20   12   12
+Order |   1  2  3  4    5    5  6   10   10
+-------------------------------------------
+p  =  2   1  1  3  2    6    5  3    6    5
+p  =  3   1  2  1  4    6    5  2    9    8
+p  =  5   1  2  3  4    1    1  7    2    2
+-------------------------------------------
+X.1   +   1  1  1  1    1    1  1    1    1
+X.2   -   2 -2 -1  0   Z1 Z1#2  1  -Z1-Z1#2
+X.3   -   2 -2 -1  0 Z1#2   Z1  1-Z1#2  -Z1
+X.4   +   3  3  0 -1-Z1#2  -Z1  0-Z1#2  -Z1
+X.5   +   3  3  0 -1  -Z1-Z1#2  0  -Z1-Z1#2
+X.6   -   4 -4  1  0   -1   -1 -1    1    1
+X.7   +   4  4  1  0   -1   -1  1   -1   -1
+X.8   +   5  5 -1  1    0    0 -1    0    0
+X.9   -   6 -6  0  0    1    1  0   -1   -1
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+# denotes algebraic conjugation, that is,
+#k indicates replacing the root of unity w by w^k
+
+Z1     = (CyclotomicField(5: Sparse := true)) ! [ RationalField() | 0, 0, 1, 1 ]
+
+
+Time: 148.180
+Time: 148.520
+Time: 148.760
+The answer depends on p modulo 120
+p equiv 1 mod 120
+[ SL(2,5)wrC2 ]
+Orders [ 28800 ]
+Exponents [ 120 ]
+p equiv 29 mod 120
+[ C4.C2^3 ]
+Orders [ 32 ]
+Exponents [ 4 ]
+p equiv 41 mod 120
+[ Q8wrC2, (C5:C4)wrC2 ]
+Orders [ 128, 800 ]
+Exponents [ 8, 40 ]
+p equiv 49 mod 120
+[ (C3:C4)wrC2, C2^2.A4wrC2 ]
+Orders [ 288, 1152 ]
+Exponents [ 24, 24 ]
+p equiv 61 mod 120
+[ D6:S3:C2, C5:D4:D5, D4.A5 ]
+Orders [ 144, 400, 480 ]
+Exponents [ 12, 20, 60 ]
+p equiv 89 mod 120
+[ Q8wrC2 ]
+Orders [ 128 ]
+Exponents [ 8 ]
+p equiv 101 mod 120
+[ C4.C2^3, C5:D4:D5 ]
+Orders [ 32, 400 ]
+Exponents [ 4, 20 ]
+p equiv 109 mod 120
+[ D4.A4, D6:S3:C2 ]
+Orders [ 96, 144 ]
+Exponents [ 12, 12 ]
+Testing group number 1 out of 104
+Testing group number 2 out of 104
+Testing group number 3 out of 104
+Testing group number 4 out of 104
+Testing group number 5 out of 104
+Testing group number 6 out of 104
+Testing group number 7 out of 104
+Testing group number 8 out of 104
+Testing group number 9 out of 104
+Testing group number 10 out of 104
+Testing group number 11 out of 104
+Testing group number 12 out of 104
+Testing group number 13 out of 104
+Testing group number 14 out of 104
+Testing group number 15 out of 104
+Testing group number 16 out of 104
+Testing group number 17 out of 104
+Testing group number 18 out of 104
+Testing group number 19 out of 104
+Testing group number 20 out of 104
+Testing group number 21 out of 104
+Testing group number 22 out of 104
+Testing group number 23 out of 104
+Testing group number 24 out of 104
+Testing group number 25 out of 104
+Testing group number 26 out of 104
+Testing group number 27 out of 104
+Testing group number 28 out of 104
+Testing group number 29 out of 104
+Testing group number 30 out of 104
+Testing group number 31 out of 104
+Testing group number 32 out of 104
+Testing group number 33 out of 104
+Testing group number 34 out of 104
+Testing group number 35 out of 104
+Testing group number 36 out of 104
+Testing group number 37 out of 104
+Testing group number 38 out of 104
+Testing group number 39 out of 104
+Testing group number 40 out of 104
+Testing group number 41 out of 104
+Testing group number 42 out of 104
+Testing group number 43 out of 104
+Testing group number 44 out of 104
+Testing group number 45 out of 104
+Testing group number 46 out of 104
+Testing group number 47 out of 104
+Testing group number 48 out of 104
+Testing group number 49 out of 104
+Testing group number 50 out of 104
+Testing group number 51 out of 104
+Testing group number 52 out of 104
+Testing group number 53 out of 104
+Testing group number 54 out of 104
+Testing group number 55 out of 104
+Testing group number 56 out of 104
+Testing group number 57 out of 104
+Testing group number 58 out of 104
+Testing group number 59 out of 104
+Testing group number 60 out of 104
+Testing group number 61 out of 104
+Testing group number 62 out of 104
+Testing group number 63 out of 104
+Testing group number 64 out of 104
+Testing group number 65 out of 104
+Testing group number 66 out of 104
+Testing group number 67 out of 104
+Testing group number 68 out of 104
+Testing group number 69 out of 104
+Testing group number 70 out of 104
+Testing group number 71 out of 104
+Testing group number 72 out of 104
+Testing group number 73 out of 104
+Testing group number 74 out of 104
+Testing group number 75 out of 104
+Testing group number 76 out of 104
+Testing group number 77 out of 104
+Testing group number 78 out of 104
+Testing group number 79 out of 104
+Testing group number 80 out of 104
+Testing group number 81 out of 104
+Testing group number 82 out of 104
+Testing group number 83 out of 104
+Testing group number 84 out of 104
+Testing group number 85 out of 104
+Testing group number 86 out of 104
+Testing group number 87 out of 104
+Testing group number 88 out of 104
+Testing group number 89 out of 104
+Testing group number 90 out of 104
+Testing group number 91 out of 104
+Testing group number 92 out of 104
+Testing group number 93 out of 104
+Testing group number 94 out of 104
+Testing group number 95 out of 104
+Testing group number 96 out of 104
+Testing group number 97 out of 104
+Testing group number 98 out of 104
+Testing group number 99 out of 104
+Testing group number 100 out of 104
+Testing group number 101 out of 104
+Testing group number 102 out of 104
+Testing group number 103 out of 104
+Testing group number 104 out of 104
+Loading "ClassC3.m"
+The answer depends on p modulo 1
+The answer depends on p modulo 1
+The answer depends on p modulo 1
+The answer depends on p modulo 1
+The answer depends on p modulo 1
+The answer depends on p modulo 1
+The answer depends on p modulo 24
+p equiv 5 mod 24
+[ SL(2,3) ]
+Orders [ 24 ]
+Exponents [ 12 ]
+p equiv 17 mod 24
+[ C2.S4 ]
+Orders [ 48 ]
+Exponents [ 24 ]
+Testing group number 1 out of 3
+Testing group number 2 out of 3
+Testing group number 3 out of 3
+The answer depends on p modulo 12
+The answer depends on p modulo 12
+======= 2^{1+4}O_4(2) =======
+== Character table ==
+
+
+Character Table of Group G
+--------------------------
+
+
+-----------------------------------------------------------------------------
+Class |    1   2  3  4  5  6  7  8   9  10  11 12  13  14  15  16  17  18  19
+Size  |    1   1 10 40 80 20 60 60 120 120 384 80 320 320  20  20 120 240 240
+Order |    1   2  2  2  3  4  4  4   4   4   5  6   6   6   8   8   8   8   8
+-----------------------------------------------------------------------------
+p  =  2    1   1  1  1  5  2  3  3   2   2  11  5   5   5   6   6   6   6   8
+p  =  3    1   2  3  4  1  6  7  8   9  10  11  2   4   3  16  15  17  18  20
+p  =  5    1   2  3  4  5  6  7  8   9  10   1 12  13  14  16  15  17  18  20
+-----------------------------------------------------------------------------
+X.1   +    1   1  1  1  1  1  1  1   1   1   1  1   1   1   1   1   1   1   1
+X.2   +    1   1  1 -1  1  1  1  1   1  -1   1  1  -1   1  -1  -1  -1   1  -1
+X.3   +    4   4  4 -2  1  4  0  0   0  -2  -1  1   1   1  -2  -2  -2   0   0
+X.4   +    4   4  4  2  1  4  0  0   0   2  -1  1  -1   1   2   2   2   0   0
+X.5   -    4  -4  0  0 -2  0  2 -2   0   0  -1  2   0   0  Z1 -Z1   0   0  Z3
+X.6   -    4  -4  0  0 -2  0  2 -2   0   0  -1  2   0   0 -Z1  Z1   0   0 -Z3
+X.7   +    5   5 -3  3  2  1  1  1   1  -1   0  2   0   0  -3  -3   1  -1  -1
+X.8   +    5   5  5  1 -1  5  1  1   1   1   0 -1   1  -1   1   1   1   1  -1
+X.9   +    5   5  5 -1 -1  5  1  1   1  -1   0 -1  -1  -1  -1  -1  -1   1   1
+X.10  +    5   5 -3 -3  2  1  1  1   1   1   0  2   0   0   3   3  -1  -1   1
+X.11  +    6   6  6  0  0  6 -2 -2  -2   0   1  0   0   0   0   0   0  -2   0
+X.12  +   10  10  2  2  1 -2  2  2  -2  -2   0  1  -1  -1   4   4   0   0   0
+X.13  +   10  10 -6  0 -2  2  2  2   2   0   0 -2   0   0   0   0   0  -2   0
+X.14  +   10  10  2  4  1 -2 -2 -2   2   0   0  1   1  -1   2   2  -2   0   0
+X.15  +   10  10  2 -4  1 -2 -2 -2   2   0   0  1  -1  -1  -2  -2   2   0   0
+X.16  +   10  10  2 -2  1 -2  2  2  -2   2   0  1   1  -1  -4  -4   0   0   0
+X.17  +   15  15 -9  3  0  3 -1 -1  -1  -1   0  0   0   0  -3  -3   1   1   1
+X.18  +   15  15 -9 -3  0  3 -1 -1  -1   1   0  0   0   0   3   3  -1   1  -1
+X.19  -   16 -16  0  0 -2  0  0  0   0   0   1  2   0   0  Z2 -Z2   0   0   0
+X.20  -   16 -16  0  0 -2  0  0  0   0   0   1  2   0   0 -Z2  Z2   0   0   0
+X.21  +   20  20  4 -2 -1 -4  0  0   0  -2   0 -1   1   1   2   2   2   0   0
+X.22  +   20  20  4  2 -1 -4  0  0   0   2   0 -1  -1   1  -2  -2  -2   0   0
+X.23  -   20 -20  0  0  2  0  2 -2   0   0   0 -2   0   0 -Z1  Z1   0   0  Z3
+X.24  -   20 -20  0  0  2  0  2 -2   0   0   0 -2   0   0  Z1 -Z1   0   0 -Z3
+X.25  -   24 -24  0  0  0  0 -4  4   0   0  -1  0   0   0   0   0   0   0   0
+
+
+---------------------------------
+Class |    20  21  22  23  24  25
+Size  |   240 480 384 160 160 160
+Order |     8   8  10  12  24  24
+---------------------------------
+p  =  2     8   9  11  12  23  23
+p  =  3    19  21  22   6  15  16
+p  =  5    19  21   2  23  25  24
+---------------------------------
+X.1   +     1   1   1   1   1   1
+X.2   +    -1  -1   1   1  -1  -1
+X.3   +     0   0  -1   1   1   1
+X.4   +     0   0  -1   1  -1  -1
+X.5   -   -Z3   0   1   0 -Z3  Z3
+X.6   -    Z3   0   1   0  Z3 -Z3
+X.7   +    -1   1   0  -2   0   0
+X.8   +    -1  -1   0  -1   1   1
+X.9   +     1   1   0  -1  -1  -1
+X.10  +     1  -1   0  -2   0   0
+X.11  +     0   0   1   0   0   0
+X.12  +     0   0   0   1   1   1
+X.13  +     0   0   0   2   0   0
+X.14  +     0   0   0   1  -1  -1
+X.15  +     0   0   0   1   1   1
+X.16  +     0   0   0   1  -1  -1
+X.17  +     1  -1   0   0   0   0
+X.18  +    -1   1   0   0   0   0
+X.19  -     0   0  -1   0 -Z3  Z3
+X.20  -     0   0  -1   0  Z3 -Z3
+X.21  +     0   0   0  -1  -1  -1
+X.22  +     0   0   0  -1   1   1
+X.23  -   -Z3   0   0   0  Z3 -Z3
+X.24  -    Z3   0   0   0 -Z3  Z3
+X.25  -     0   0   1   0   0   0
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+# denotes algebraic conjugation, that is,
+#k indicates replacing the root of unity w by w^k
+
+Z1     = (CyclotomicField(8: Sparse := true)) ! [ RationalField() | 0, -2, 0, 2 
+]
+
+Z2     = (CyclotomicField(8: Sparse := true)) ! [ RationalField() | 0, 4, 0, -4 
+]
+
+Z3     = (CyclotomicField(8: Sparse := true)) ! [ RationalField() | 0, 1, 0, -1 
+]
+
+
+== Hasse subgroups ==
+The answer depends on p modulo 120
+p equiv 1 mod 120
+[ C4.C2^3.S5 ]
+Orders [ 3840 ]
+Exponents [ 120 ]
+p equiv 17 mod 120
+[ C4:Q8.C2^3 ]
+Orders [ 256 ]
+Exponents [ 8 ]
+p equiv 41 mod 120
+[ C4:Q8.C2^3, C4.C2^3.F5 ]
+Orders [ 256, 640 ]
+Exponents [ 8, 40 ]
+p equiv 49 mod 120
+[ C8.S4.C2, Q8^2.D6 ]
+Orders [ 384, 768 ]
+Exponents [ 24, 24 ]
+p equiv 73 mod 120
+[ C8.S4.C2, Q8^2.D6 ]
+Orders [ 384, 768 ]
+Exponents [ 24, 24 ]
+p equiv 89 mod 120
+[ C4:Q8.C2^3 ]
+Orders [ 256 ]
+Exponents [ 8 ]
+p equiv 97 mod 120
+[ C8.S4.C2, Q8^2.D6 ]
+Orders [ 384, 768 ]
+Exponents [ 24, 24 ]
+p equiv 113 mod 120
+[ C4:Q8.C2^3 ]
+Orders [ 256 ]
+Exponents [ 8 ]
+Testing group number 1 out of 355
+Testing group number 2 out of 355
+Testing group number 3 out of 355
+Testing group number 4 out of 355
+Testing group number 5 out of 355
+Testing group number 6 out of 355
+Testing group number 7 out of 355
+Testing group number 8 out of 355
+Testing group number 9 out of 355
+Testing group number 10 out of 355
+Testing group number 11 out of 355
+Testing group number 12 out of 355
+Testing group number 13 out of 355
+Testing group number 14 out of 355
+Testing group number 15 out of 355
+Testing group number 16 out of 355
+Testing group number 17 out of 355
+Testing group number 18 out of 355
+Testing group number 19 out of 355
+Testing group number 20 out of 355
+Testing group number 21 out of 355
+Testing group number 22 out of 355
+Testing group number 23 out of 355
+Testing group number 24 out of 355
+Testing group number 25 out of 355
+Testing group number 26 out of 355
+Testing group number 27 out of 355
+Testing group number 28 out of 355
+Testing group number 29 out of 355
+Testing group number 30 out of 355
+Testing group number 31 out of 355
+Testing group number 32 out of 355
+Testing group number 33 out of 355
+Testing group number 34 out of 355
+Testing group number 35 out of 355
+Testing group number 36 out of 355
+Testing group number 37 out of 355
+Testing group number 38 out of 355
+Testing group number 39 out of 355
+Testing group number 40 out of 355
+Testing group number 41 out of 355
+Testing group number 42 out of 355
+Testing group number 43 out of 355
+Testing group number 44 out of 355
+Testing group number 45 out of 355
+Testing group number 46 out of 355
+Testing group number 47 out of 355
+Testing group number 48 out of 355
+Testing group number 49 out of 355
+Testing group number 50 out of 355
+Testing group number 51 out of 355
+Testing group number 52 out of 355
+Testing group number 53 out of 355
+Testing group number 54 out of 355
+Testing group number 55 out of 355
+Testing group number 56 out of 355
+Testing group number 57 out of 355
+Testing group number 58 out of 355
+Testing group number 59 out of 355
+Testing group number 60 out of 355
+Testing group number 61 out of 355
+Testing group number 62 out of 355
+Testing group number 63 out of 355
+Testing group number 64 out of 355
+Testing group number 65 out of 355
+Testing group number 66 out of 355
+Testing group number 67 out of 355
+Testing group number 68 out of 355
+Testing group number 69 out of 355
+Testing group number 70 out of 355
+Testing group number 71 out of 355
+Testing group number 72 out of 355
+Testing group number 73 out of 355
+Testing group number 74 out of 355
+Testing group number 75 out of 355
+Testing group number 76 out of 355
+Testing group number 77 out of 355
+Testing group number 78 out of 355
+Testing group number 79 out of 355
+Testing group number 80 out of 355
+Testing group number 81 out of 355
+Testing group number 82 out of 355
+Testing group number 83 out of 355
+Testing group number 84 out of 355
+Testing group number 85 out of 355
+Testing group number 86 out of 355
+Testing group number 87 out of 355
+Testing group number 88 out of 355
+Testing group number 89 out of 355
+Testing group number 90 out of 355
+Testing group number 91 out of 355
+Testing group number 92 out of 355
+Testing group number 93 out of 355
+Testing group number 94 out of 355
+Testing group number 95 out of 355
+Testing group number 96 out of 355
+Testing group number 97 out of 355
+Testing group number 98 out of 355
+Testing group number 99 out of 355
+Testing group number 100 out of 355
+Testing group number 101 out of 355
+Testing group number 102 out of 355
+Testing group number 103 out of 355
+Testing group number 104 out of 355
+Testing group number 105 out of 355
+Testing group number 106 out of 355
+Testing group number 107 out of 355
+Testing group number 108 out of 355
+Testing group number 109 out of 355
+Testing group number 110 out of 355
+Testing group number 111 out of 355
+Testing group number 112 out of 355
+Testing group number 113 out of 355
+Testing group number 114 out of 355
+Testing group number 115 out of 355
+Testing group number 116 out of 355
+Testing group number 117 out of 355
+Testing group number 118 out of 355
+Testing group number 119 out of 355
+Testing group number 120 out of 355
+Testing group number 121 out of 355
+Testing group number 122 out of 355
+Testing group number 123 out of 355
+Testing group number 124 out of 355
+Testing group number 125 out of 355
+Testing group number 126 out of 355
+Testing group number 127 out of 355
+Testing group number 128 out of 355
+Testing group number 129 out of 355
+Testing group number 130 out of 355
+Testing group number 131 out of 355
+Testing group number 132 out of 355
+Testing group number 133 out of 355
+Testing group number 134 out of 355
+Testing group number 135 out of 355
+Testing group number 136 out of 355
+Testing group number 137 out of 355
+Testing group number 138 out of 355
+Testing group number 139 out of 355
+Testing group number 140 out of 355
+Testing group number 141 out of 355
+Testing group number 142 out of 355
+Testing group number 143 out of 355
+Testing group number 144 out of 355
+Testing group number 145 out of 355
+Testing group number 146 out of 355
+Testing group number 147 out of 355
+Testing group number 148 out of 355
+Testing group number 149 out of 355
+Testing group number 150 out of 355
+Testing group number 151 out of 355
+Testing group number 152 out of 355
+Testing group number 153 out of 355
+Testing group number 154 out of 355
+Testing group number 155 out of 355
+Testing group number 156 out of 355
+Testing group number 157 out of 355
+Testing group number 158 out of 355
+Testing group number 159 out of 355
+Testing group number 160 out of 355
+Testing group number 161 out of 355
+Testing group number 162 out of 355
+Testing group number 163 out of 355
+Testing group number 164 out of 355
+Testing group number 165 out of 355
+Testing group number 166 out of 355
+Testing group number 167 out of 355
+Testing group number 168 out of 355
+Testing group number 169 out of 355
+Testing group number 170 out of 355
+Testing group number 171 out of 355
+Testing group number 172 out of 355
+Testing group number 173 out of 355
+Testing group number 174 out of 355
+Testing group number 175 out of 355
+Testing group number 176 out of 355
+Testing group number 177 out of 355
+Testing group number 178 out of 355
+Testing group number 179 out of 355
+Testing group number 180 out of 355
+Testing group number 181 out of 355
+Testing group number 182 out of 355
+Testing group number 183 out of 355
+Testing group number 184 out of 355
+Testing group number 185 out of 355
+Testing group number 186 out of 355
+Testing group number 187 out of 355
+Testing group number 188 out of 355
+Testing group number 189 out of 355
+Testing group number 190 out of 355
+Testing group number 191 out of 355
+Testing group number 192 out of 355
+Testing group number 193 out of 355
+Testing group number 194 out of 355
+Testing group number 195 out of 355
+Testing group number 196 out of 355
+Testing group number 197 out of 355
+Testing group number 198 out of 355
+Testing group number 199 out of 355
+Testing group number 200 out of 355
+Testing group number 201 out of 355
+Testing group number 202 out of 355
+Testing group number 203 out of 355
+Testing group number 204 out of 355
+Testing group number 205 out of 355
+Testing group number 206 out of 355
+Testing group number 207 out of 355
+Testing group number 208 out of 355
+Testing group number 209 out of 355
+Testing group number 210 out of 355
+Testing group number 211 out of 355
+Testing group number 212 out of 355
+Testing group number 213 out of 355
+Testing group number 214 out of 355
+Testing group number 215 out of 355
+Testing group number 216 out of 355
+Testing group number 217 out of 355
+Testing group number 218 out of 355
+Testing group number 219 out of 355
+Testing group number 220 out of 355
+Testing group number 221 out of 355
+Testing group number 222 out of 355
+Testing group number 223 out of 355
+Testing group number 224 out of 355
+Testing group number 225 out of 355
+Testing group number 226 out of 355
+Testing group number 227 out of 355
+Testing group number 228 out of 355
+Testing group number 229 out of 355
+Testing group number 230 out of 355
+Testing group number 231 out of 355
+Testing group number 232 out of 355
+Testing group number 233 out of 355
+Testing group number 234 out of 355
+Testing group number 235 out of 355
+Testing group number 236 out of 355
+Testing group number 237 out of 355
+Testing group number 238 out of 355
+Testing group number 239 out of 355
+Testing group number 240 out of 355
+Testing group number 241 out of 355
+Testing group number 242 out of 355
+Testing group number 243 out of 355
+Testing group number 244 out of 355
+Testing group number 245 out of 355
+Testing group number 246 out of 355
+Testing group number 247 out of 355
+Testing group number 248 out of 355
+Testing group number 249 out of 355
+Testing group number 250 out of 355
+Testing group number 251 out of 355
+Testing group number 252 out of 355
+Testing group number 253 out of 355
+Testing group number 254 out of 355
+Testing group number 255 out of 355
+Testing group number 256 out of 355
+Testing group number 257 out of 355
+Testing group number 258 out of 355
+Testing group number 259 out of 355
+Testing group number 260 out of 355
+Testing group number 261 out of 355
+Testing group number 262 out of 355
+Testing group number 263 out of 355
+Testing group number 264 out of 355
+Testing group number 265 out of 355
+Testing group number 266 out of 355
+Testing group number 267 out of 355
+Testing group number 268 out of 355
+Testing group number 269 out of 355
+Testing group number 270 out of 355
+Testing group number 271 out of 355
+Testing group number 272 out of 355
+Testing group number 273 out of 355
+Testing group number 274 out of 355
+Testing group number 275 out of 355
+Testing group number 276 out of 355
+Testing group number 277 out of 355
+Testing group number 278 out of 355
+Testing group number 279 out of 355
+Testing group number 280 out of 355
+Testing group number 281 out of 355
+Testing group number 282 out of 355
+Testing group number 283 out of 355
+Testing group number 284 out of 355
+Testing group number 285 out of 355
+Testing group number 286 out of 355
+Testing group number 287 out of 355
+Testing group number 288 out of 355
+Testing group number 289 out of 355
+Testing group number 290 out of 355
+Testing group number 291 out of 355
+Testing group number 292 out of 355
+Testing group number 293 out of 355
+Testing group number 294 out of 355
+Testing group number 295 out of 355
+Testing group number 296 out of 355
+Testing group number 297 out of 355
+Testing group number 298 out of 355
+Testing group number 299 out of 355
+Testing group number 300 out of 355
+Testing group number 301 out of 355
+Testing group number 302 out of 355
+Testing group number 303 out of 355
+Testing group number 304 out of 355
+Testing group number 305 out of 355
+Testing group number 306 out of 355
+Testing group number 307 out of 355
+Testing group number 308 out of 355
+Testing group number 309 out of 355
+Testing group number 310 out of 355
+Testing group number 311 out of 355
+Testing group number 312 out of 355
+Testing group number 313 out of 355
+Testing group number 314 out of 355
+Testing group number 315 out of 355
+Testing group number 316 out of 355
+Testing group number 317 out of 355
+Testing group number 318 out of 355
+Testing group number 319 out of 355
+Testing group number 320 out of 355
+Testing group number 321 out of 355
+Testing group number 322 out of 355
+Testing group number 323 out of 355
+Testing group number 324 out of 355
+Testing group number 325 out of 355
+Testing group number 326 out of 355
+Testing group number 327 out of 355
+Testing group number 328 out of 355
+Testing group number 329 out of 355
+Testing group number 330 out of 355
+Testing group number 331 out of 355
+Testing group number 332 out of 355
+Testing group number 333 out of 355
+Testing group number 334 out of 355
+Testing group number 335 out of 355
+Testing group number 336 out of 355
+Testing group number 337 out of 355
+Testing group number 338 out of 355
+Testing group number 339 out of 355
+Testing group number 340 out of 355
+Testing group number 341 out of 355
+Testing group number 342 out of 355
+Testing group number 343 out of 355
+Testing group number 344 out of 355
+Testing group number 345 out of 355
+Testing group number 346 out of 355
+Testing group number 347 out of 355
+Testing group number 348 out of 355
+Testing group number 349 out of 355
+Testing group number 350 out of 355
+Testing group number 351 out of 355
+Testing group number 352 out of 355
+Testing group number 353 out of 355
+Testing group number 354 out of 355
+Testing group number 355 out of 355
+======= 2^{1+4} Omega_4(2) =======
+== Character table ==
+
+
+Character Table of Group G
+--------------------------
+
+
+----------------------------------------------------------------------------
+Class |    1   2  3  4  5  6  7   8    9   10 11     12     13  14   15   16
+Size  |    1   1 10 80 20 60 60 120  192  192 80    160    160 240  192  192
+Order |    1   2  2  3  4  4  4   4    5    5  6      6      6   8   10   10
+----------------------------------------------------------------------------
+p  =  2    1   1  1  4  2  3  3   2   10    9  4      4      4   5   10    9
+p  =  3    1   2  3  1  5  6  7   8   10    9  2      3      3  14   16   15
+p  =  5    1   2  3  4  5  6  7   8    1    1 11     13     12  14    2    2
+----------------------------------------------------------------------------
+X.1   +    1   1  1  1  1  1  1   1    1    1  1      1      1   1    1    1
+X.2   +    3   3  3  0  3 -1 -1  -1   Z1 Z1#2  0      0      0  -1   Z1 Z1#2
+X.3   +    3   3  3  0  3 -1 -1  -1 Z1#2   Z1  0      0      0  -1 Z1#2   Z1
+X.4   -    4  -4  0 -2  0 -2  2   0   -1   -1  2      0      0   0    1    1
+X.5   +    4   4  4  1  4  0  0   0   -1   -1  1      1      1   0   -1   -1
+X.6   +    5   5  5 -1  5  1  1   1    0    0 -1     -1     -1   1    0    0
+X.7   +    5   5 -3  2  1  1  1   1    0    0  2      0      0  -1    0    0
+X.8   0    5   5 -3 -1  1  1  1   1    0    0 -1 -1-2*J  1+2*J  -1    0    0
+X.9   0    5   5 -3 -1  1  1  1   1    0    0 -1  1+2*J -1-2*J  -1    0    0
+X.10  +   10  10  2  1 -2  2  2  -2    0    0  1     -1     -1   0    0    0
+X.11  +   10  10  2  1 -2 -2 -2   2    0    0  1     -1     -1   0    0    0
+X.12  -   12 -12  0  0  0  2 -2   0  -Z1-Z1#2  0      0      0   0   Z1 Z1#2
+X.13  -   12 -12  0  0  0  2 -2   0-Z1#2  -Z1  0      0      0   0 Z1#2   Z1
+X.14  +   15  15 -9  0  3 -1 -1  -1    0    0  0      0      0   1    0    0
+X.15  -   16 -16  0 -2  0  0  0   0    1    1  2      0      0   0   -1   -1
+X.16  -   20 -20  0  2  0 -2  2   0    0    0 -2      0      0   0    0    0
+X.17  +   20  20  4 -1 -4  0  0   0    0    0 -1      1      1   0    0    0
+
+
+-------------
+Class |    17
+Size  |   160
+Order |    12
+-------------
+p  =  2    11
+p  =  3     5
+p  =  5    17
+-------------
+X.1   +     1
+X.2   +     0
+X.3   +     0
+X.4   -     0
+X.5   +     1
+X.6   +    -1
+X.7   +    -2
+X.8   0     1
+X.9   0     1
+X.10  +     1
+X.11  +     1
+X.12  -     0
+X.13  -     0
+X.14  +     0
+X.15  -     0
+X.16  -     0
+X.17  +    -1
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+# denotes algebraic conjugation, that is,
+#k indicates replacing the root of unity w by w^k
+
+J = RootOfUnity(3)
+
+Z1     = (CyclotomicField(5: Sparse := true)) ! [ RationalField() | 0, 0, -1, -1
+]
+
+
+== Hasse subgroups ==
+The answer depends on p modulo 120
+p equiv 13 mod 120
+[ D4.A4 ]
+Orders [ 96 ]
+Exponents [ 12 ]
+p equiv 29 mod 120
+[ C4.C2^3 ]
+Orders [ 32 ]
+Exponents [ 4 ]
+p equiv 37 mod 120
+[ D4.A4 ]
+Orders [ 96 ]
+Exponents [ 12 ]
+p equiv 53 mod 120
+[ C4.C2^3 ]
+Orders [ 32 ]
+Exponents [ 4 ]
+p equiv 61 mod 120
+[ D4.A4, (C4.C2^3):C5 ]
+Orders [ 96, 160 ]
+Exponents [ 12, 20 ]
+p equiv 77 mod 120
+[ C4.C2^3 ]
+Orders [ 32 ]
+Exponents [ 4 ]
+p equiv 101 mod 120
+[ (C4.C2^3):C5 ]
+Orders [ 160 ]
+Exponents [ 20 ]
+p equiv 109 mod 120
+[ D4.A4 ]
+Orders [ 96 ]
+Exponents [ 12 ]
+Testing group number 1 out of 14
+Testing group number 2 out of 14
+Testing group number 3 out of 14
+Testing group number 4 out of 14
+Testing group number 5 out of 14
+Testing group number 6 out of 14
+Testing group number 7 out of 14
+Testing group number 8 out of 14
+Testing group number 9 out of 14
+Testing group number 10 out of 14
+Testing group number 11 out of 14
+Testing group number 12 out of 14
+Testing group number 13 out of 14
+Testing group number 14 out of 14
+======= 2.A_6 =======
+== Character table ==
+
+
+Character Table of Group G
+--------------------------
+
+
+-----------------------------------------------------------
+Class |    1   2  3  4  5    6    7  8  9  10  11   12   13
+Size  |    1   1 40 40 90   72   72 40 40  90  90   72   72
+Order |    1   2  3  3  4    5    5  6  6   8   8   10   10
+-----------------------------------------------------------
+p  =  2    1   1  3  4  2    7    6  4  3   5   5    7    6
+p  =  3    1   2  1  1  5    7    6  2  2  11  10   13   12
+p  =  5    1   2  3  4  5    1    1  8  9  11  10    2    2
+-----------------------------------------------------------
+X.1   +    1   1  1  1  1    1    1  1  1   1   1    1    1
+X.2   -    4  -4  1 -2  0   -1   -1  2 -1   0   0    1    1
+X.3   -    4  -4 -2  1  0   -1   -1 -1  2   0   0    1    1
+X.4   +    5   5 -1  2  1    0    0  2 -1  -1  -1    0    0
+X.5   +    5   5  2 -1  1    0    0 -1  2  -1  -1    0    0
+X.6   +    8   8 -1 -1  0   Z1 Z1#2 -1 -1   0   0   Z1 Z1#2
+X.7   -    8  -8 -1 -1  0 Z1#2   Z1  1  1   0   0-Z1#2  -Z1
+X.8   -    8  -8 -1 -1  0   Z1 Z1#2  1  1   0   0  -Z1-Z1#2
+X.9   +    8   8 -1 -1  0 Z1#2   Z1 -1 -1   0   0 Z1#2   Z1
+X.10  +    9   9  0  0  1   -1   -1  0  0   1   1   -1   -1
+X.11  +   10  10  1  1 -2    0    0  1  1   0   0    0    0
+X.12  -   10 -10  1  1  0    0    0 -1 -1  Z2 -Z2    0    0
+X.13  -   10 -10  1  1  0    0    0 -1 -1 -Z2  Z2    0    0
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+# denotes algebraic conjugation, that is,
+#k indicates replacing the root of unity w by w^k
+
+Z1     = (CyclotomicField(5: Sparse := true)) ! [ RationalField() | 0, 0, -1, -1
+]
+
+Z2     = (CyclotomicField(8: Sparse := true)) ! [ RationalField() | 0, -1, 0, 1 
+]
+
+
+== Hasse subgroups, representation ct[2] ==
+The answer depends on p modulo 120
+p equiv 17 mod 120
+[ C2.S4 ]
+Orders [ 48 ]
+Exponents [ 24 ]
+p equiv 29 mod 120
+[ SL(2,3) ]
+Orders [ 24 ]
+Exponents [ 12 ]
+p equiv 41 mod 120
+[ C2.S4, SL(2,5) ]
+Orders [ 48, 120 ]
+Exponents [ 24, 60 ]
+p equiv 53 mod 120
+[ SL(2,3) ]
+Orders [ 24 ]
+Exponents [ 12 ]
+p equiv 77 mod 120
+[ SL(2,3) ]
+Orders [ 24 ]
+Exponents [ 12 ]
+p equiv 89 mod 120
+[ C2.S4 ]
+Orders [ 48 ]
+Exponents [ 24 ]
+p equiv 101 mod 120
+[ SL(2,5) ]
+Orders [ 120 ]
+Exponents [ 60 ]
+p equiv 113 mod 120
+[ C2.S4 ]
+Orders [ 48 ]
+Exponents [ 24 ]
+Testing group number 1 out of 14
+Testing group number 2 out of 14
+Testing group number 3 out of 14
+Testing group number 4 out of 14
+Testing group number 5 out of 14
+Testing group number 6 out of 14
+Testing group number 7 out of 14
+Testing group number 8 out of 14
+Testing group number 9 out of 14
+Testing group number 10 out of 14
+Testing group number 11 out of 14
+Testing group number 12 out of 14
+Testing group number 13 out of 14
+Testing group number 14 out of 14
+== Hasse subgroups, representation ct[3] ==
+The answer depends on p modulo 120
+p equiv 17 mod 120
+[ C2.S4 ]
+Orders [ 48 ]
+Exponents [ 24 ]
+p equiv 29 mod 120
+[ SL(2,3) ]
+Orders [ 24 ]
+Exponents [ 12 ]
+p equiv 41 mod 120
+[ C2.S4, SL(2,5) ]
+Orders [ 48, 120 ]
+Exponents [ 24, 60 ]
+p equiv 53 mod 120
+[ SL(2,3) ]
+Orders [ 24 ]
+Exponents [ 12 ]
+p equiv 77 mod 120
+[ SL(2,3) ]
+Orders [ 24 ]
+Exponents [ 12 ]
+p equiv 89 mod 120
+[ C2.S4 ]
+Orders [ 48 ]
+Exponents [ 24 ]
+p equiv 101 mod 120
+[ SL(2,5) ]
+Orders [ 120 ]
+Exponents [ 60 ]
+p equiv 113 mod 120
+[ C2.S4 ]
+Orders [ 48 ]
+Exponents [ 24 ]
+Testing group number 1 out of 14
+Testing group number 2 out of 14
+Testing group number 3 out of 14
+Testing group number 4 out of 14
+Testing group number 5 out of 14
+Testing group number 6 out of 14
+Testing group number 7 out of 14
+Testing group number 8 out of 14
+Testing group number 9 out of 14
+Testing group number 10 out of 14
+Testing group number 11 out of 14
+Testing group number 12 out of 14
+Testing group number 13 out of 14
+Testing group number 14 out of 14
+======= 2.S_6 =======
+== Character table ==
+
+
+Character Table of Group G
+--------------------------
+
+
+---------------------------------------------------------------------------
+Class |    1   2  3  4  5  6  7   8  9 10     11     12  13  14  15  16  17
+Size  |    1   1 30 40 40 30 90 144 40 40    120    120 180 180 144 120 120
+Order |    1   2  2  3  3  4  4   5  6  6      6      6   8   8  10  12  12
+---------------------------------------------------------------------------
+p  =  2    1   1  1  4  5  2  2   8  4  5      5      5   7   7   8   9   9
+p  =  3    1   2  3  1  1  6  7   8  2  2      3      3  13  14  15   6   6
+p  =  5    1   2  3  4  5  6  7   1  9 10     12     11  13  14   2  17  16
+---------------------------------------------------------------------------
+X.1   +    1   1  1  1  1  1  1   1  1  1      1      1   1   1   1   1   1
+X.2   +    1   1 -1  1  1 -1  1   1  1  1     -1     -1  -1   1   1  -1  -1
+X.3   0    4  -4  0 -2  1  0  0  -1  2 -1  1+2*J -1-2*J   0   0   1   0   0
+X.4   0    4  -4  0 -2  1  0  0  -1  2 -1 -1-2*J  1+2*J   0   0   1   0   0
+X.5   -    4  -4  0  1 -2  0  0  -1 -1  2      0      0   0   0   1  Z1 -Z1
+X.6   -    4  -4  0  1 -2  0  0  -1 -1  2      0      0   0   0   1 -Z1  Z1
+X.7   +    5   5  3 -1  2 -1  1   0 -1  2      0      0   1  -1   0  -1  -1
+X.8   +    5   5 -1  2 -1  3  1   0  2 -1     -1     -1   1  -1   0   0   0
+X.9   +    5   5  1  2 -1 -3  1   0  2 -1      1      1  -1  -1   0   0   0
+X.10  +    5   5 -3 -1  2  1  1   0 -1  2      0      0  -1  -1   0   1   1
+X.11  +    9   9 -3  0  0 -3  1  -1  0  0      0      0   1   1  -1   0   0
+X.12  +    9   9  3  0  0  3  1  -1  0  0      0      0  -1   1  -1   0   0
+X.13  +   10  10  2  1  1 -2 -2   0  1  1     -1     -1   0   0   0   1   1
+X.14  +   10  10 -2  1  1  2 -2   0  1  1      1      1   0   0   0  -1  -1
+X.15  -   16 -16  0 -2 -2  0  0   1  2  2      0      0   0   0  -1   0   0
+X.16  +   16  16  0 -2 -2  0  0   1 -2 -2      0      0   0   0   1   0   0
+X.17  -   20 -20  0  2  2  0  0   0 -2 -2      0      0   0   0   0   0   0
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+# denotes algebraic conjugation, that is,
+#k indicates replacing the root of unity w by w^k
+
+J = RootOfUnity(3)
+
+Z1     = (CyclotomicField(12: Sparse := true)) ! [ RationalField() | 0, 1, 0, 2 
+]
+
+
+== Hasse subgroups ==
+The answer depends on p modulo 120
+p equiv 1 mod 120
+[ C2.A6.C2 ]
+Orders [ 1440 ]
+Exponents [ 120 ]
+p equiv 13 mod 120
+[ D6:S3 ]
+Orders [ 72 ]
+Exponents [ 12 ]
+p equiv 37 mod 120
+[ D6:S3 ]
+Orders [ 72 ]
+Exponents [ 12 ]
+p equiv 49 mod 120
+[ GL(2,3):C2, SL(2,3).C2^2, C3^2:Q8:C2 ]
+Orders [ 96, 96, 144 ]
+Exponents [ 24, 24, 24 ]
+p equiv 61 mod 120
+[ D6:S3, SL(2,5) ]
+Orders [ 72, 120 ]
+Exponents [ 12, 60 ]
+p equiv 73 mod 120
+[ GL(2,3):C2, SL(2,3).C2^2, C3^2:Q8:C2 ]
+Orders [ 96, 96, 144 ]
+Exponents [ 24, 24, 24 ]
+p equiv 97 mod 120
+[ GL(2,3):C2, SL(2,3).C2^2, C3^2:Q8:C2 ]
+Orders [ 96, 96, 144 ]
+Exponents [ 24, 24, 24 ]
+p equiv 109 mod 120
+[ D6:S3 ]
+Orders [ 72 ]
+Exponents [ 12 ]
+Testing group number 1 out of 43
+Testing group number 2 out of 43
+Testing group number 3 out of 43
+Testing group number 4 out of 43
+Testing group number 5 out of 43
+Testing group number 6 out of 43
+Testing group number 7 out of 43
+Testing group number 8 out of 43
+Testing group number 9 out of 43
+Testing group number 10 out of 43
+Testing group number 11 out of 43
+Testing group number 12 out of 43
+Testing group number 13 out of 43
+Testing group number 14 out of 43
+Testing group number 15 out of 43
+Testing group number 16 out of 43
+Testing group number 17 out of 43
+Testing group number 18 out of 43
+Testing group number 19 out of 43
+Testing group number 20 out of 43
+Testing group number 21 out of 43
+Testing group number 22 out of 43
+Testing group number 23 out of 43
+Testing group number 24 out of 43
+Testing group number 25 out of 43
+Testing group number 26 out of 43
+Testing group number 27 out of 43
+Testing group number 28 out of 43
+Testing group number 29 out of 43
+Testing group number 30 out of 43
+Testing group number 31 out of 43
+Testing group number 32 out of 43
+Testing group number 33 out of 43
+Testing group number 34 out of 43
+Testing group number 35 out of 43
+Testing group number 36 out of 43
+Testing group number 37 out of 43
+Testing group number 38 out of 43
+Testing group number 39 out of 43
+Testing group number 40 out of 43
+Testing group number 41 out of 43
+Testing group number 42 out of 43
+Testing group number 43 out of 43
+======= Sym^3 SL_2(F_3) =======
+== Character table ==
+
+
+Character Table of Group G
+--------------------------
+
+
+-------------------------------------
+Class |   1  2    3    4  5    6    7
+Size  |   1  1    4    4  6    4    4
+Order |   1  2    3    3  4    6    6
+-------------------------------------
+p  =  2   1  1    4    3  2    3    4
+p  =  3   1  2    1    1  5    2    2
+-------------------------------------
+X.1   +   1  1    1    1  1    1    1
+X.2   0   1  1    J -1-J  1 -1-J    J
+X.3   0   1  1 -1-J    J  1    J -1-J
+X.4   -   2 -2   -1   -1  0    1    1
+X.5   0   2 -2  1+J   -J  0    J -1-J
+X.6   0   2 -2   -J  1+J  0 -1-J    J
+X.7   +   3  3    0    0 -1    0    0
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+J = RootOfUnity(3)
+
+
+== Hasse subgroups ==
+The answer depends on p modulo 12
+p equiv 5 mod 12
+[ SL(2,3) ]
+Orders [ 24 ]
+Exponents [ 12 ]
+Testing group number 1 out of 1
+======= Sym^3 2.S_4^- =======
+== Character table ==
+
+
+Character Table of Group G
+--------------------------
+
+
+----------------------------------
+Class |   1  2  3  4  5  6   7   8
+Size  |   1  1  8  6 12  8   6   6
+Order |   1  2  3  4  4  6   8   8
+----------------------------------
+p  =  2   1  1  3  2  2  3   4   4
+p  =  3   1  2  1  4  5  2   8   7
+----------------------------------
+X.1   +   1  1  1  1  1  1   1   1
+X.2   +   1  1  1  1 -1  1  -1  -1
+X.3   +   2  2 -1  2  0 -1   0   0
+X.4   -   2 -2 -1  0  0  1  Z1 -Z1
+X.5   -   2 -2 -1  0  0  1 -Z1  Z1
+X.6   +   3  3  0 -1 -1  0   1   1
+X.7   +   3  3  0 -1  1  0  -1  -1
+X.8   -   4 -4  1  0  0 -1   0   0
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+# denotes algebraic conjugation, that is,
+#k indicates replacing the root of unity w by w^k
+
+Z1     = (CyclotomicField(8: Sparse := true)) ! [ RationalField() | 0, 1, 0, -1 
+]
+
+
+== Hasse subgroups ==
+The answer depends on p modulo 24
+p equiv 1 mod 24
+[ C2.S4 ]
+Orders [ 48 ]
+Exponents [ 24 ]
+p equiv 17 mod 24
+[ C2.S4 ]
+Orders [ 48 ]
+Exponents [ 24 ]
+Testing group number 1 out of 3
+Testing group number 2 out of 3
+Testing group number 3 out of 3
+======= Sym^3 SL_2(F_5) =======
+== Character table ==
+
+
+Character Table of Group G
+--------------------------
+
+
+-------------------------------------------
+Class |   1  2  3  4    5    6  7    8    9
+Size  |   1  1 20 30   12   12 20   12   12
+Order |   1  2  3  4    5    5  6   10   10
+-------------------------------------------
+p  =  2   1  1  3  2    6    5  3    6    5
+p  =  3   1  2  1  4    6    5  2    9    8
+p  =  5   1  2  3  4    1    1  7    2    2
+-------------------------------------------
+X.1   +   1  1  1  1    1    1  1    1    1
+X.2   -   2 -2 -1  0   Z1 Z1#2  1  -Z1-Z1#2
+X.3   -   2 -2 -1  0 Z1#2   Z1  1-Z1#2  -Z1
+X.4   +   3  3  0 -1-Z1#2  -Z1  0-Z1#2  -Z1
+X.5   +   3  3  0 -1  -Z1-Z1#2  0  -Z1-Z1#2
+X.6   -   4 -4  1  0   -1   -1 -1    1    1
+X.7   +   4  4  1  0   -1   -1  1   -1   -1
+X.8   +   5  5 -1  1    0    0 -1    0    0
+X.9   -   6 -6  0  0    1    1  0   -1   -1
+
+
+Explanation of Character Value Symbols
+--------------------------------------
+
+# denotes algebraic conjugation, that is,
+#k indicates replacing the root of unity w by w^k
+
+Z1     = (CyclotomicField(5: Sparse := true)) ! [ RationalField() | 0, 0, 1, 1 ]
+
+
+== Hasse subgroups ==
+The answer depends on p modulo 60
+p equiv 1 mod 60
+[ SL(2,5) ]
+Orders [ 120 ]
+Exponents [ 60 ]
+p equiv 29 mod 60
+[ SL(2,3) ]
+Orders [ 24 ]
+Exponents [ 12 ]
+p equiv 41 mod 60
+[ SL(2,5) ]
+Orders [ 120 ]
+Exponents [ 60 ]
+Testing group number 1 out of 4
+Testing group number 2 out of 4
+Testing group number 3 out of 4
+Testing group number 4 out of 4
+
+Total time: 2478.460 seconds, Total memory usage: 446.41MB
